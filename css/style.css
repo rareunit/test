@@ -121,7 +121,7 @@ table {
 }
 .welcome {
 	background-color: #EDF2EC;
-	padding: 56px 0 50px 0;
+	padding: 55px 0 50px 0;
 }
 .welcome-button {
 	font-family: 'Inter';
@@ -138,6 +138,12 @@ table {
 	padding: 10px 26px;
 	background-color: transparent;
 }
+.welcome-button:hover {
+	cursor: pointer;
+	color: #FFFFFF;
+	background: #E06733;
+	transition: all 0.5s;
+}
 .about {
 	background-color: #FFFFFF;
 	padding: 95px 0 88px 0;
@@ -150,6 +156,7 @@ table {
 	line-height: 52px;
 	color: #499A18;
 	max-width: 463px;
+	margin-bottom: -2px;
 }
 .about-text-big span {
 	color: #E06733;
@@ -167,7 +174,7 @@ table {
 }
 .service {
 	background: #EDF2EC;
-	padding: 38px 0 118px 0;
+	padding: 40px 0 123px 0;
 }
 .section-header {
 	display: flex;
@@ -198,8 +205,18 @@ table {
 	border-radius: 5px;
 	width: 160px;
 	text-align: center;
-	padding: 11px 0;
-	margin-right: 37px;
+	padding: 11px 0px;
+	margin-right: 40px;
+	background-color: transparent;
+}
+.service-button:hover {
+	cursor: pointer;
+	color: #FFFFFF;
+	background: #E06733;
+	transition: all 0.5s;
+}
+.service-button--3 {
+	padding-right: 2px;
 }
 .service-list-text {
 	font-family: 'Inter';
@@ -223,23 +240,26 @@ table {
 	gap: 54px 117px;
 	margin-top: 80px;
 }
+.service-img {
+	margin-left: -1px;
+}
 .service-list-item {
 	margin-left: -2px;
 	border: 1px solid #E3E1D5;
 	border-radius: 20px;	
 }
 .service-list-text {
-	margin-top: 8px;
+	margin-top: 7px;
 	text-align: center;
 }
 .service-list-subtext {
 	margin-top: 14px;
 	text-align: center;
-	margin-bottom: 36px;
+	margin-bottom: 34px;
 }
 .prices {
 	background: #FFFFFF;
-	padding: 41px 109px 108px 109px;
+	padding: 40px 109px 105px 109px;
 	justify-content: space-between;
 }
 .prices-menu {
@@ -276,8 +296,15 @@ table {
 	color: #E06733;
 	border: 1px solid #E06733;
 	border-radius: 5px;	
-	padding: 10px 32px;
-	margin: 40px 0 32px 0;
+	padding: 11px 33px 11px 32px;
+	margin: 40px 0 33px 0;
+	background-color: transparent;
+}
+.prices-button:hover {
+	cursor: pointer;
+	color: #FFFFFF;
+	background: #E06733;
+	transition: all 0.5s;
 }
 .prices-text-button-img {
 	display: flex;
@@ -299,10 +326,11 @@ table {
 .prices-segment {
 	background: #EDF2EC;
 	border-radius: 20px;
-	margin: 30px 40px;
+	margin: 33px 40px;
 	display: flex;
 	justify-content: space-between;
-	padding: 16px 40px;
+	align-items:center;
+	padding: 14px 40px 14px 40px;
 	width: 170px;
 }
 .prices-segment-text {
@@ -314,6 +342,7 @@ table {
 	color: #000000;
 	max-width: 100px;
 	justify-content: center;
+	margin-top: 2px;
 }
 .prices-segment-button{
 	position: relative;
@@ -413,6 +442,12 @@ table {
 	margin-left: 42px;
 	text-decoration: none;
 }
+.rs-school a:hover {
+	cursor: pointer;
+	color: #E06733;
+	transition: all 0.5s;
+	text-shadow: 0 0 .65px #E06733, 0 0 .65px #E06733;
+}
 .year-git {
 	font-family: 'Inter';
 	font-style: normal;
@@ -450,10 +485,20 @@ table {
 	color: #000000;
 	text-decoration: none;
 }
+.git:hover {
+	cursor: pointer;
+	color: #E06733;
+	transition: all 0.5s;
+	text-shadow: 0 0 .65px #E06733, 0 0 .65px #E06733;
+}
 footer {
 	background: #FFFFFF;
-	padding: 38px 109px 38px 109px;
+	padding: 40px 109px 38px 109px;
 }
 .contacts-img {
-	margin-bottom: -2px;
+	margin-bottom: -3px;
+}
+.socials-icon a:hover, .socials-icon a:focus {
+	filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+	transition: all 0.5s;
 }
